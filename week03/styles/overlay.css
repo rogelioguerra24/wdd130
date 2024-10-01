@@ -1,6 +1,11 @@
+:root{
+    --border:1px solid #000;
+    --nonevalue: 0;
+    --max-size: 100%;
+}
 * {
-	margin: 0;
-	padding: 0;
+	margin: var(--nonevalue);
+	padding: var(--nonevalue);
 }
 
 main {
@@ -21,15 +26,15 @@ h2 {
 }
 
 .herodiv img {
-	width: 100%;
-	height: 100%;
+	width: var(--max-size);
+	height: var(--max-size);
 	object-fit: cover;
 }
 
 .stats {
 	position: absolute;
 	background: radial-gradient(#eee, #4567aa);
-	border: 1px solid #000;
+	border: var(--border);
 	padding: 0.65rem;
 	box-shadow: 0 0 30px #111;
 	opacity: 0.9;
@@ -45,9 +50,9 @@ h3 {
 
 footer {
 	position: fixed;
-	bottom: 0;
+	bottom: var(--nonevalue);
 	margin: 1rem;
-	border-top: 1px solid #000;
+	border-top: var(--border);
 	padding: 0.5rem;
 	color: navy;
 	font-weight: 700;
