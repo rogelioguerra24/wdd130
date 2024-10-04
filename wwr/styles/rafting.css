@@ -9,7 +9,7 @@ h1 {
     font-size: 50px;
     color: var(--secondary-color);
     position: absolute;
-    top: 50px;
+    top: 100px;
     background: var(--accent-one);
     opacity: 0.9;
     left: 60%;
@@ -35,11 +35,14 @@ article {
 	background: var(--accent-two);
 	padding: 0.65rem;
 	opacity: 0.9;
-    bottom: 115px;
+    bottom: 150px;
     left: 15px;
     width: 50%;
 }
 article img{
     width: 250px;
     float: right;
+}
+.sociallinks {
+    text-decoration: none;
 }
