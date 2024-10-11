@@ -46,3 +46,79 @@ article img{
 .social-link a {
     text-decoration: none;
 }
+
+/* W04 "WDD130" | Navigation*/ 
+header {
+	margin: 1rem auto;
+	display: grid;
+	grid-template-columns: 1fr 3fr;
+    border-bottom: 1px solid #ccc;
+    align-items: center;
+}
+.fit-picture {
+    margin: 0 0.25rem 0 10rem;
+	width:180px;
+	height: auto;
+}
+.navigation-bar {
+    text-align: center;
+    align-items: center;
+    font-family: "Roboto Condensed", system-ui;
+    font-size: 50px;
+    display: flex;
+    margin-right: 10rem;
+}
+.navigation-bar a{
+    text-decoration: none;
+    color: var(--secondary-color);
+    flex: 100%;
+}
+.navigation-bar a:hover {
+	color: var(--accent-one);
+	font-weight: 800;
+	text-decoration: underline;
+}
+/*History*/
+.history {
+    height: 400px;
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+}
+.history p{
+    font-size: large;
+    text-align: center;
+}
+.history h2 {
+    font-size: 50px;
+}
+.history img {
+    width: 35%;
+    height: auto;
+    float: right;
+}
+/* Adventure */
+.adventure {
+    text-align: center;
+    font-size: 50px;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+.title-adventure {
+    grid-column: 1/4;
+}
+.adventure img{
+    max-width: 400px;
+}
+figure {
+    max-width: 400px;
+    max-height: 400px;
+}
+/* Footer */
+footer {
+    margin: 1rem auto;
+    display: flex;
+    align-items: center;
+    background-color: var(--accent-two);
+    justify-content: space-around;
+}
