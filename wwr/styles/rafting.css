@@ -104,6 +104,13 @@ header {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
 }
+.adventure-2 {
+    text-align: center;
+    font-size: 15px;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
 .title-adventure {
     grid-column: 1/4;
 }
@@ -121,4 +128,93 @@ footer {
     align-items: center;
     background-color: var(--accent-two);
     justify-content: space-around;
+}
+.wireframe {
+    text-decoration: none;
+    color: var(--secondary-color);
+}
+
+/* Form part */
+form {
+    width: 650px;
+    margin: 0 auto;
+    padding: 1rem;
+    border: 1px solid rgba(0,0,0,0.1);
+    border-radius: 0.5rem;
+    background-color: #eee;
+    display: grid;
+}
+fieldset{
+    display: grid;
+    grid-gap: .5rem;
+    margin: 1rem;
+    border: 1px solid rgba(0,0,0,0.2);
+    padding: 1rem;
+}
+legend {
+    padding: 0.5rem;
+    color: var(--secondary-color);
+    font-size: 1.3rem;
+}
+label,
+input,
+button,
+select,
+textarea {
+    font-family: Arial, Helvetica, sans-serif;
+}
+label{
+    text-align: right;
+    padding-right: 1rem;
+}
+.solution {
+    text-align: left;
+}
+input,
+select,
+textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+input[type="checkbox"] {
+    width: 22px;
+    height: 22px;
+    vertical-align: bottom;
+}
+button{
+    margin: 1rem;
+    background-color: var(--secondary-color);
+    color: #fff;
+    border: none;
+    border-radius: .5rem;
+    padding: .75rem;
+    font-size: 1.2rem;
+}
+button:hover{
+    background-color: navy;
+}
+/*Contact Us*/
+.contactus{
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    display: grid;
+    grid-template-columns: 1fr 1fr ;
+    font-family: "Poppins", system-ui;
+    font-size: 20px;
+}
+.contactus-title {
+    grid-column: 1/3;
+    font-size: 50px;
+}
+.frame {
+    padding: 10px;
+    width: 500px;
+    height: 350px;
+}
+h3 {
+    color: var(--secondary-color);
+}
+.title-adventure2 {
+    grid-column: 1/4;
+    font-size: 50px;
 }
