@@ -131,7 +131,7 @@ footer {
 }
 .wireframe {
     text-decoration: none;
-    color: var(--secondary-color);
+    color: var(--accent-one);
 }
 
 /* Form part */
@@ -153,7 +153,7 @@ fieldset{
 }
 legend {
     padding: 0.5rem;
-    color: var(--secondary-color);
+    color: var(--accent-one);
     font-size: 1.3rem;
 }
 label,
