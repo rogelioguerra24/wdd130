@@ -4,7 +4,7 @@
     --accent-one: #343434ff;
     --accent-two: #c3c3c3ff;
 }
-h1 {
+.h1-about {
     font-family: "Poppins", system-ui;
     font-size: 50px;
     color: var(--secondary-color);
