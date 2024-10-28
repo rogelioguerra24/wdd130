@@ -1,0 +1,41 @@
+main {
+    align-items: center;
+}
+h1 {
+    color: navy;
+    text-align: center;
+}
+input,
+select,
+textarea{
+    padding: 0.5rem;
+    font-size: 1.1rem;
+}
+form {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 45rem;
+    margin: 0 auto;
+    padding: 1rem;
+    text-align: center;
+    font-size: 1.2rem;
+    background-color: rgb(253, 235, 205);
+    border-radius: 0.5rem;
+}
+button {
+    color: white;
+    margin: 1rem;
+    padding: .75rem;
+    background-color: navy;
+    border: none;
+    border-radius: 0.5rem;
+    font-size: 1rem;
+}
+
+button:hover{
+    background-color: green;
+}
+div {
+    padding: 0.5rem;
+    text-align: left;
+}
